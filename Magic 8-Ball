@@ -1,5 +1,6 @@
-name = "hi"
-question = "okay then"
+#Insert name and question below.
+name = ""
+question = ""
 answer = ""
 
 import random
