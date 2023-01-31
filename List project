@@ -1,0 +1,16 @@
+ints_and_strings = [1, 2, 3, "four", "five", "Tom"]
+
+sam_height_and_testscore = ["Sam", 67, 99, True]
+tom_height_and_testscore = ["Tom", 55, 96, True]
+
+#print(sam_height_and_testscore)
+sam = sam_height_and_testscore
+tom = tom_height_and_testscore
+
+sam[2] = 80
+tom[2] = 90
+if tom[2] >= sam[2]:
+#print(sam[0], "Height", sam[1], "\nTest Score ",  sam[2], )
+  print("Tom scored higher than Sam by", tom[2] - sam[2], "points.")
+elif sam[2] >= tom[2]:
+  print("Sam scored higher than Tom by", sam[2] - tom[2], "points." )
