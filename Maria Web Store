@@ -1,0 +1,40 @@
+
+first_names = ["Ainsley", "Ben", "Chani", "Depak"]
+preferred_size = ["Small", "Large", "Medium"]
+preferred_size.append ("Medium")
+
+#customer_data = first_names + preferred_size
+expedited_shipping = [True, False]
+customer_data = [
+[first_names[0], preferred_size[0], expedited_shipping[0]], 
+[first_names[1], preferred_size[1], expedited_shipping[1]], 
+[first_names[2], preferred_size[2], expedited_shipping[0]], 
+[first_names[3], preferred_size[3], expedited_shipping[1]],  
+]
+#print(customer_data[2][2])
+#chani_shipping_change
+customer_data[2][2] = expedited_shipping[1]
+
+#Ben remove shipping
+#https://discuss.codecademy.com/t/logic-of-remove-on-a-2d-list/617144/2
+customer_data[1].remove(customer_data[1][2]) 
+
+
+#new customers
+first_names.extend(["Amit", "Karim"])
+preferred_size.extend(["Large", "X-Large"])
+
+#print(first_names)
+#print(preferred_size)
+customer_data.append([first_names[4], preferred_size[4], expedited_shipping[0]])
+
+customer_data.append([first_names[5], preferred_size[5], expedited_shipping[1]])
+
+
+customer_data_final = customer_data + []
+#print(expedited_shipping)
+#print(customer_data)
+#print(preferred_size)
+#print(first_names)
+
+print(customer_data_final)
