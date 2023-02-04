@@ -1,7 +1,7 @@
 def trip_planner_welcome(name):
   print("Welcome to tripplanner v1.0 "+ name)
   return trip_planner_welcome
-trip_planner_welcome("Toukee")
+trip_planner_welcome("Mike")
 
 def estimated_time_rounded(estimated_time):
   rounded_time = round(estimated_time)
