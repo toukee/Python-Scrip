@@ -1,0 +1,37 @@
+Define the function to accept one parameter for our list of numbers
+Add the last and second-to-last elements from our list together
+Append the calculated value to the end of our list.
+Repeat steps 2 and 3 two more times
+Return the modified list
+
+
+#Write your function here
+def append_sum(my_list):
+  my_list.append(my_list[-1] + my_list[-2])
+  my_list.append(my_list[-1] + my_list[-2])
+  my_list.append(my_list[-1] + my_list[-2])
+  return my_list
+
+# def append_sum(my_list):
+#   for adding_last_two in my_list:
+#     adding_last_two = my_list.append(my_list[-1] + my_list[-2])
+#     return(my_list)
+#     print(adding_last_two)
+    
+#Uncomment the line below when your function is done
+print(append_sum([1, 1, 2]))
+#Write your function here
+def append_sum(my_list):
+  my_list.append(my_list[-1] + my_list[-2])
+  my_list.append(my_list[-1] + my_list[-2])
+  my_list.append(my_list[-1] + my_list[-2])
+  return my_list
+
+# def append_sum(my_list):
+#   for adding_last_two in my_list:
+#     adding_last_two = my_list.append(my_list[-1] + my_list[-2])
+#     return(my_list)
+#     print(adding_last_two)
+    
+#Uncomment the line below when your function is done
+print(append_sum([1, 1, 2]))
